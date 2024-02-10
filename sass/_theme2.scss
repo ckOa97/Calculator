@@ -1,0 +1,64 @@
+@use './colors';
+
+.theme2 {
+    background-color: colors.$light-gray;
+    main {
+        > div:first-of-type {
+            color: colors.$very-dark-grayish-yellow;
+            > div {
+                div {
+                    background-color: colors.$grayish-red;
+                    &::before {
+                        background-color: colors.$orange;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                    }
+                    &:hover::before {
+                        background-color: #ff8b38;
+                    }
+                }
+            }
+        }
+        #screen {
+            background-color: colors.$very-light-gray;
+            color: colors.$very-dark-grayish-yellow;
+            span:first-of-type {
+                color: colors.$theme2-display2-color;
+            }
+        }
+        #buttons-container {
+            background-color: colors.$grayish-red;
+            button {
+                background-color: colors.$light-grayish-yellow;
+                color: colors.$very-dark-grayish-yellow;
+                box-shadow: 0 .25rem 0 0 colors.$dark-grayish-orange;
+                position: relative;
+                &:hover {
+                    background-color: #ffffff;
+                }
+                &:active {
+                    box-shadow: 0 0 0 0 transparent;
+                    transform: translateY(.25rem);
+                }
+            }
+            .del, .reset {
+                background-color: colors.$dark-moderate-cyan;
+                color: colors.$white;
+                box-shadow: 0 .25rem 0 0 colors.$very-dark-cyan;
+                &:hover {
+                    background-color: #62b5bd;
+                }
+            }
+            .reset {
+            }
+            .equal {
+                background-color: colors.$orange;
+                color: colors.$white;
+                box-shadow: 0 .25rem 0 0 colors.$dark-orange;
+                &:hover {
+                    background-color: #ff8b38;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,295 @@
+.theme1 {
+  background-color: hsl(222, 26%, 31%);
+}
+.theme1 main > div:first-of-type {
+  color: hsl(0, 0%, 100%);
+}
+.theme1 main > div:first-of-type > div div {
+  background-color: hsl(223, 31%, 20%);
+}
+.theme1 main > div:first-of-type > div div::before {
+  background-color: hsl(6, 63%, 50%);
+  margin-left: 0;
+  transform: translateX(0);
+}
+.theme1 main > div:first-of-type > div div:hover::before {
+  background-color: #f96c5b;
+}
+.theme1 main #screen {
+  background-color: hsl(224, 36%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+.theme1 main #screen span:first-of-type {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.theme1 main #buttons-container {
+  background-color: hsl(223, 31%, 20%);
+}
+.theme1 main #buttons-container button {
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  box-shadow: 0 0.25rem 0 0 hsl(28, 16%, 65%);
+  position: relative;
+}
+.theme1 main #buttons-container button:hover {
+  background-color: #ffffff;
+}
+.theme1 main #buttons-container button:active {
+  box-shadow: 0 0 0 0 transparent;
+  transform: translateY(0.25rem);
+}
+.theme1 main #buttons-container .del, .theme1 main #buttons-container .reset {
+  background-color: hsl(225, 21%, 49%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0.25rem 0 0 hsl(224, 28%, 35%);
+}
+.theme1 main #buttons-container .del:hover, .theme1 main #buttons-container .reset:hover {
+  background-color: #a2b3e1;
+}
+.theme1 main #buttons-container .equal {
+  background-color: hsl(6, 63%, 50%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0.25rem 0 0 hsl(6, 70%, 34%);
+}
+.theme1 main #buttons-container .equal:hover {
+  background-color: #f96c5b;
+}
+
+.theme2 {
+  background-color: hsl(0, 0%, 90%);
+}
+.theme2 main > div:first-of-type {
+  color: hsl(60, 10%, 19%);
+}
+.theme2 main > div:first-of-type > div div {
+  background-color: hsl(0, 5%, 81%);
+}
+.theme2 main > div:first-of-type > div div::before {
+  background-color: hsl(25, 98%, 40%);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.theme2 main > div:first-of-type > div div:hover::before {
+  background-color: #ff8b38;
+}
+.theme2 main #screen {
+  background-color: hsl(0, 0%, 93%);
+  color: hsl(60, 10%, 19%);
+}
+.theme2 main #screen span:first-of-type {
+  color: hsla(60, 9%, 19%, 0.5);
+}
+.theme2 main #buttons-container {
+  background-color: hsl(0, 5%, 81%);
+}
+.theme2 main #buttons-container button {
+  background-color: hsl(45, 7%, 89%);
+  color: hsl(60, 10%, 19%);
+  box-shadow: 0 0.25rem 0 0 hsl(35, 11%, 61%);
+  position: relative;
+}
+.theme2 main #buttons-container button:hover {
+  background-color: #ffffff;
+}
+.theme2 main #buttons-container button:active {
+  box-shadow: 0 0 0 0 transparent;
+  transform: translateY(0.25rem);
+}
+.theme2 main #buttons-container .del, .theme2 main #buttons-container .reset {
+  background-color: hsl(185, 42%, 37%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0.25rem 0 0 hsl(185, 58%, 25%);
+}
+.theme2 main #buttons-container .del:hover, .theme2 main #buttons-container .reset:hover {
+  background-color: #62b5bd;
+}
+.theme2 main #buttons-container .equal {
+  background-color: hsl(25, 98%, 40%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0.25rem 0 0 hsl(25, 99%, 27%);
+}
+.theme2 main #buttons-container .equal:hover {
+  background-color: #ff8b38;
+}
+
+.theme3 {
+  background-color: hsl(268, 75%, 9%);
+}
+.theme3 main > div:first-of-type {
+  color: hsl(52, 100%, 62%);
+}
+.theme3 main > div:first-of-type > div div {
+  background-color: hsl(268, 71%, 12%);
+}
+.theme3 main > div:first-of-type > div div::before {
+  background-color: hsl(176, 100%, 44%);
+  margin-left: 100%;
+  transform: translateX(-100%);
+}
+.theme3 main > div:first-of-type > div div:hover::before {
+  background-color: #94fff9;
+}
+.theme3 main #screen {
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+}
+.theme3 main #screen span:first-of-type {
+  color: hsla(52, 100%, 62%, 0.5);
+}
+.theme3 main #buttons-container {
+  background-color: hsl(268, 71%, 12%);
+}
+.theme3 main #buttons-container button {
+  background-color: hsl(268, 47%, 21%);
+  color: hsl(52, 100%, 62%);
+  box-shadow: 0 0.25rem 0 0 hsl(290, 70%, 36%);
+  position: relative;
+}
+.theme3 main #buttons-container button:hover {
+  background-color: #6b34ac;
+}
+.theme3 main #buttons-container button:active {
+  box-shadow: 0 0 0 0 transparent;
+  transform: translateY(0.25rem);
+}
+.theme3 main #buttons-container .del, .theme3 main #buttons-container .reset {
+  background-color: hsl(281, 89%, 26%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0.25rem 0 0 hsl(285, 91%, 52%);
+}
+.theme3 main #buttons-container .del:hover, .theme3 main #buttons-container .reset:hover {
+  background-color: #8631b0;
+}
+.theme3 main #buttons-container .equal {
+  background-color: hsl(176, 100%, 44%);
+  color: hsl(198, 20%, 13%);
+  box-shadow: 0 0.25rem 0 0 hsl(177, 92%, 70%);
+}
+.theme3 main #buttons-container .equal:hover {
+  background-color: #94fff9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: clamp(10px, 10px + 6 * (100vw - 300px) / 700, 16px);
+}
+@media screen and (max-width: 260px) {
+  :root {
+    font-size: 7px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 1.25rem;
+  font-family: "League Spartan", sans-serif;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 33.75rem;
+  min-width: 180px;
+  width: 100%;
+}
+body main > div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+body main > div:first-of-type > div {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  font-size: 0.75rem;
+}
+body main > div:first-of-type > div > span {
+  letter-spacing: 0.05rem;
+}
+body main > div:first-of-type > div div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 4.437rem;
+  height: 1.625rem;
+  border-radius: 1.125rem;
+  padding: 0 0.37rem;
+  cursor: pointer;
+}
+body main > div:first-of-type > div div span {
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  width: 0.4rem;
+  position: absolute;
+  top: -1rem;
+  cursor: default;
+}
+body main > div:first-of-type > div div span:first-of-type {
+  left: 0.4rem;
+}
+body main > div:first-of-type > div div span:nth-of-type(2) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+body main > div:first-of-type > div div span:last-of-type {
+  right: 0.4rem;
+}
+body main > div:first-of-type > div div::before {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  transition: margin-left 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+body main #screen {
+  padding: 2.562rem 2.187rem;
+  border-radius: 0.687rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+body main #screen span:first-of-type {
+  font-size: 1rem;
+  overflow: hidden;
+  text-align: end;
+  min-height: 1rem;
+}
+body main #screen span:last-of-type {
+  overflow: hidden;
+  text-align: end;
+  min-height: 3rem;
+}
+body main #buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5625rem;
+  padding: 1.875rem;
+  border-radius: 0.687rem;
+}
+body main #buttons-container button {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2rem;
+  padding: 1.062rem;
+  border-style: none;
+  border-radius: 0.687rem;
+  cursor: pointer;
+}
+body main #buttons-container .reset {
+  grid-column-end: span 2;
+}
+body main #buttons-container .equal {
+  grid-column-end: span 2;
+}
+
+/*# sourceMappingURL=style.css.map */

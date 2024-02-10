@@ -1,0 +1,64 @@
+@use './colors';
+
+.theme3 {
+    background-color: colors.$very-dark-violet1;
+    main {
+        > div:first-of-type {
+            color: colors.$light-yellow;
+            > div {
+                div {
+                    background-color: colors.$very-dark-violet2;
+                    &::before {
+                        background-color: colors.$pure-cyan;
+                        margin-left: 100%;
+                        transform: translateX(-100%);
+                    }
+                    &:hover::before {
+                        background-color: #94fff9;
+                    }
+                }
+            }
+        }
+        #screen {
+            background-color: colors.$very-dark-violet2;
+            color: colors.$light-yellow;
+            span:first-of-type {
+                color: colors.$theme3-display2-color;
+            }
+        }
+        #buttons-container {
+            background-color: colors.$very-dark-violet2;
+            button {
+                background-color: colors.$very-dark-violet;
+                color: colors.$light-yellow;
+                box-shadow: 0 .25rem 0 0 colors.$dark-magenta;
+                position: relative;
+                &:hover {
+                    background-color: #6b34ac;
+                }
+                &:active {
+                    box-shadow: 0 0 0 0 transparent;
+                    transform: translateY(.25rem);
+                }
+            }
+            .del, .reset {
+                background-color: colors.$dark-violet;
+                color: colors.$white;
+                box-shadow: 0 .25rem 0 0 colors.$vivid-magenta;
+                &:hover {
+                    background-color: #8631b0;
+                }
+            }
+            .reset {
+            }
+            .equal {
+                background-color: colors.$pure-cyan;
+                color: colors.$very-dark-blue;
+                box-shadow: 0 .25rem 0 0 colors.$soft-cyan;
+                &:hover {
+                    background-color: #94fff9;
+                }
+            }
+        }
+    }
+}

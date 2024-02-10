@@ -1,0 +1,64 @@
+@use './colors';
+
+.theme1 {
+    background-color: colors.$very-dark-desaturated-blue1;
+    main {
+        > div:first-of-type {
+            color: colors.$white;
+            > div {
+                div {
+                    background-color: colors.$very-dark-desaturated-blue2;
+                    &::before {
+                        background-color: colors.$red;
+                        margin-left: 0;
+                        transform: translateX(0);
+                    }
+                    &:hover::before {
+                        background-color: #f96c5b;
+                    }
+                }
+            }
+        }
+        #screen {
+            background-color: colors.$very-dark-desaturated-blue3;
+            color: colors.$white;
+            span:first-of-type {
+                color: colors.$theme1-display2-color;
+            }
+        }
+        #buttons-container {
+            background-color: colors.$very-dark-desaturated-blue2;
+            button {
+                background-color: colors.$light-grayish-orange;
+                color: colors.$very-dark-grayish-blue;
+                box-shadow: 0 .25rem 0 0 colors.$grayish-orange;
+                position: relative;
+                &:hover {
+                    background-color: #ffffff;
+                }
+                &:active {
+                    box-shadow: 0 0 0 0 transparent;
+                    transform: translateY(.25rem);
+                }
+            }
+            .del, .reset {
+                background-color: colors.$desaturated-dark-blue1;
+                color: colors.$white;
+                box-shadow: 0 .25rem 0 0 colors.$desaturated-dark-blue2;
+                &:hover {
+                    background-color: #a2b3e1;
+                }
+            }
+            .reset {
+            }
+            .equal {
+                background-color: colors.$red;
+                color: colors.$white;
+                box-shadow: 0 .25rem 0 0 colors.$dark-red;
+                &:hover {
+                    background-color: #f96c5b;
+                }
+            }
+        }
+    }
+}
